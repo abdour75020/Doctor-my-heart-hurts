@@ -55,13 +55,17 @@ body
 	background-image: url(https://www.zupimages.net/up/18/05/qijx.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 59%;
+	background-size: 56%;
 	display: flex;
 	flex-direction: column;
 }
 .circleBase {
     border-radius: 50%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+.circleBase:hover
+{
+	background-color: red;
 }
 .type1 {
     width: 50px;
